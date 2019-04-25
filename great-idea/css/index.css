@@ -84,6 +84,7 @@ color:gray;
 text-decoration: none;
 padding: 10px;
 }
+/*Mixins*/
 
 .second-header .top{
 	display: flex;
@@ -152,3 +153,44 @@ h6{
 }
 
 /* Services Page  */
+
+/*header*/
+
+/*main content*/
+.row1{
+	display: flex;
+	flex-direction: row;
+}
+.row1 .box-top{
+	margin:15px;
+	border: 1px solid black;
+	background-color: lightgrey;
+	padding:15px;
+}
+
+.row2{
+	display: flex;
+	flex-direction: row;
+}
+.row2 .box-mid{
+	margin: 15px;
+	border: 1px solid black;
+	background-color: lightgrey;
+	padding:15px;
+}
+
+.row3{
+	display: flex;
+	flex-direction: row;
+}
+.row3 .box-bottom{
+	margin: 15px;
+	border: 1px solid black;
+	background-color: lightgrey;
+	padding:15px;
+}
+button{
+margin-top: 15px;
+
+}
+/*footer*/
