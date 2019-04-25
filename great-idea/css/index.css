@@ -155,11 +155,14 @@ h6{
 /* Services Page  */
 
 /*header*/
-
+.service-header .service-header-content{
+margin: 40px 0;
+}
 /*main content*/
 .row1{
 	display: flex;
 	flex-direction: row;
+	border-top: 1px solid black;
 }
 .row1 .box-top{
 	margin:15px;
@@ -188,6 +191,7 @@ h6{
 	border: 1px solid black;
 	background-color: lightgrey;
 	padding:15px;
+	margin-bottom: 45px;
 }
 button{
 margin-top: 15px;
@@ -197,3 +201,27 @@ border-radius: 5px;
 border:1px solid black;
 }
 /*footer*/
+.facts-section{
+	border-top:1px solid black;
+	display: flex;
+	flex-direction: row;
+	justify-content: space-between;
+}
+.facts-section .facts p{
+margin-bottom: 20px;
+}
+	
+.facts{
+	margin-top: 40px;
+	padding: 25px;
+}
+
+.facts-section .services-info-img{
+	margin-top: 65px;
+	margin-bottom: 100px;
+
+}
+ul li{
+	list-style-type: square;
+	margin:20px;
+}
