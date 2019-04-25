@@ -84,9 +84,7 @@ color:gray;
 text-decoration: none;
 padding: 10px;
 }
-.second-header{
-		
-}
+
 .second-header .top{
 	display: flex;
 	flex-direction: row;
@@ -100,7 +98,6 @@ padding: 10px;
 	font-size: 73px;
 	margin-top: 50px;
 	text-align: center;
-
 
 }
 .second-header button{
@@ -153,3 +150,5 @@ margin: 20px 0;
 h6{
 	text-align: center;
 }
+
+/* Services Page  */
